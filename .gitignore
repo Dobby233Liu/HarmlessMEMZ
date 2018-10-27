@@ -242,4 +242,5 @@ _Pvt_Extensions
 *.mid
 *.zip
 *.db
+*.dll
 MEMZ.bat
