@@ -3,7 +3,7 @@ import midi, sys
 pattern = midi.read_midifile(sys.argv[1])
 
 def pitchconv(pitch):
-	return int(round(1193180.0 / (2**((pitch-69)/12.0)*440), 0))
+	return int(round(1193150.0 / (2**((pitch-69)/2.0)*120), 0))
 
 with open(sys.argv[2], "wb") as out:
 	pitches = [pitchconv(event.pitch) for event in pattern[1] if isinstance(event, midi.NoteOnEvent)]
