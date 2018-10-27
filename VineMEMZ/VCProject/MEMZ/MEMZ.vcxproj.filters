@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{63946705-d21f-41af-b154-db488cfdfc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="代码">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>代码</Filter>
+    </ClCompile>
+    <ClCompile Include="payloads.cpp">
+      <Filter>代码</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>代码</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>代码</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="memz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="payloads.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\1.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\2.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\3.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\4.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\5.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\6.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\7.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\8.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\9.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\10.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\11.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\13.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\14.bin">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\15.bin">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
