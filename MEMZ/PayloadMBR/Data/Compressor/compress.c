@@ -110,7 +110,5 @@ int main(int argc, char **argv) {
 	}
 	
 	fclose(outfile);
-	system("pause");
-	
 	return 0;
 }
